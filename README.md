@@ -17,18 +17,6 @@ developed in **TypeScript**.
 
 ---
 
-## 📸 Wireframes
-
-### Mobile View
-
-![Mobile View](assets/mobile_view.png?raw=true)
-
-### Desktop View
-
-![Desktop View](assets/pc_view.png?raw=true)
-
----
-
 ## 🚀 Getting Started
 
 This project is powered by [Vite](https://vitejs.dev/) and includes the
@@ -49,15 +37,6 @@ following tech stack:
 - Yarn package manager
 
 ---
-
-## 📦 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/twinkltech/twinkl-react-tech-test.git
-cd twinkl-react-tech-test
-```
 
 ## 📦 Testing Strategy
 
