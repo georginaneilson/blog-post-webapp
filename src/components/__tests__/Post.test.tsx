@@ -14,19 +14,19 @@ describe("Post component", () => {
   it("renders the post title and body", () => {
     const mockHandleDelete = vi.fn();
     render(
-      <Post post={mockPost} handleDelete={mockHandleDelete} error={false} />
+      <Post post={mockPost} handleDelete={mockHandleDelete} error={false} />,
     );
 
     expect(screen.getByText("Test Post Title")).toBeInTheDocument();
     expect(
-      screen.getByText("This is the body of the test post.")
+      screen.getByText("This is the body of the test post."),
     ).toBeInTheDocument();
   });
 
   it("calls handleDelete with correct ID when delete button is clicked", async () => {
     const mockHandleDelete = vi.fn();
     render(
-      <Post post={mockPost} handleDelete={mockHandleDelete} error={false} />
+      <Post post={mockPost} handleDelete={mockHandleDelete} error={false} />,
     );
 
     const deleteButton = screen.getByRole("button", { name: /delete post/i });
@@ -40,11 +40,11 @@ describe("Post component", () => {
   it("displays error message when error prop is true", () => {
     const mockHandleDelete = vi.fn();
     render(
-      <Post post={mockPost} handleDelete={mockHandleDelete} error={true} />
+      <Post post={mockPost} handleDelete={mockHandleDelete} error={true} />,
     );
 
     expect(
-      screen.getByText("Error deleting post, please try again")
+      screen.getByText("Error deleting post, please try again"),
     ).toBeInTheDocument();
   });
 });

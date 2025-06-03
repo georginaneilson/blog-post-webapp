@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ListContainer > matches the snapshot 1`] = `
+exports[`PostListContainer > matches the snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -12,7 +12,7 @@ exports[`ListContainer > matches the snapshot 1`] = `
           <h1
             class="sr-only"
           >
-            Twinkl Blog Posts
+            Blog Posts
           </h1>
           <span
             class="flex items-center gap-2 bg-white md:bg-[#fff7f9] rounded-xl p-2 md:mx-50 xl:mx-100 focus-within:outline-2 focus-within:outline-pink-700 shadow-sm"
@@ -58,7 +58,7 @@ exports[`ListContainer > matches the snapshot 1`] = `
         <h1
           class="sr-only"
         >
-          Twinkl Blog Posts
+          Blog Posts
         </h1>
         <span
           class="flex items-center gap-2 bg-white md:bg-[#fff7f9] rounded-xl p-2 md:mx-50 xl:mx-100 focus-within:outline-2 focus-within:outline-pink-700 shadow-sm"
