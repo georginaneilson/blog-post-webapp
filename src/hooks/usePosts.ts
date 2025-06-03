@@ -26,7 +26,7 @@ export function usePosts() {
 
   const handleDelete = async (postId: number) => {
     try {
-      const deleteResponse = await Promise.resolve(deletePostData(postId));
+      const deleteResponse = await deletePostData(postId);
 
       if (deleteResponse === HttpStatusCode.Ok) {
         setData((prev) => prev.filter((post) => post.id !== postId));
