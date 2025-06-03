@@ -26,6 +26,7 @@
 
     "types": ["vitest/globals", "@testing-library/jest-dom"]
   },
-  "include": ["src"],
+  "include": ["src", "lint-staged.config.js", "vite.setup.ts", ".eslintrs.cjs"],
+  "exclude": [],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

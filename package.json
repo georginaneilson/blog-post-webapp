@@ -10,12 +10,13 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint --quiet --cache --report-unused-disable-directives src/**/*.{ts,tsx}",
+    "lint": "eslint --quiet --cache --report-unused-disable-directives \"src/**/*.{ts,tsx}\" ",
     "lint:fix": "eslint --fix --quiet --cache --report-unused-disable-directives src/**/*.{ts,tsx}",
     "format": "prettier --check --ignore-unknown .",
     "format:fix": "prettier --write --ignore-unknown .",
     "test": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "type-check": "tsc --project tsconfig.json --noEmit"
   },
   "dependencies": {
     "@tailwindcss/vite": "4.1.8",
