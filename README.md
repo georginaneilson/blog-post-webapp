@@ -52,13 +52,13 @@ integration test coverage, and Playwright for E2E.
 To run vitest tests
 
 ```
-yarn test
+yarn vitest
 ```
 
 playwright
 
 ```
-yarn test:e2e
+yarn e2e
 ```
 
 ## Notes
