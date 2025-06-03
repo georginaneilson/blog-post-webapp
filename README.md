@@ -29,6 +29,12 @@ following tech stack:
 - ESLint and Prettier for code quality
 - Tailwind CSS
 
+Clone repository
+
+Install packages `yarn` or `npm i`
+
+Start app `yarn dev` or `npm run dev`
+
 ---
 
 ## 🔧 Prerequisites
