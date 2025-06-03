@@ -8,5 +8,6 @@ export default defineConfig({
     coverage: {
       provider: "v8",
     },
+    exclude: ["**/node_modules/**", "**/**/__tests__/e2e/"],
   },
 });

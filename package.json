@@ -1,5 +1,5 @@
 {
-  "name": "twinkl-react-tech-test",
+  "name": "blog-post-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,16 +14,18 @@
     "lint:fix": "eslint --fix --quiet --cache --report-unused-disable-directives src/**/*.{ts,tsx}",
     "format": "prettier --check --ignore-unknown .",
     "format:fix": "prettier --write --ignore-unknown .",
-    "test": "vitest",
-    "test:coverage": "vitest run --coverage",
-    "type-check": "tsc --project tsconfig.json --noEmit"
+    "vitest": "vitest",
+    "vitest:coverage": "vitest run --coverage",
+    "type-check": "tsc --project tsconfig.json --noEmit",
+    "e2e": "npx playwright test"
   },
   "dependencies": {
     "@tailwindcss/vite": "4.1.8",
-    "clsx": "^2.1.1",
+    "clsx": "2.1.1",
     "axios": "1.9.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "playwright": "1.52.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "tailwindcss": "4.1.8"
   },
   "devDependencies": {

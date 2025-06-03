@@ -1,128 +1,100 @@
-# Twinkl React Tech Test
+# 📝 Blog Post WebApp
 
-## Task description
+## Overview
 
-You are tasked with creating a React application that interacts with a Posts API (https://jsonplaceholder.typicode.com/posts) to perform CRUD operations (Create, Read, Update, Delete). The application should be implemented using TypeScript and designed to be production-ready.
+This is a React-based application designed to perform basic **CRUD operations**
+(Create, Read, Update, Delete) on blog posts using the
+[JSONPlaceholder API](https://jsonplaceholder.typicode.com/posts). The app is
+developed in **TypeScript**.
 
-Refer to the [guide on how to use the JSONPlaceholder API](https://jsonplaceholder.typicode.com/guide/).
+---
 
-#### Time limit
+## 🌐 Features
 
-We don't expect you to spend longer than 3 hours on this task. If you'd like to capture any decisions, thoughts, or next steps you would take, feel free to do so.
+- ✅ Fetch and display posts from the JSONPlaceholder API
+- 🔍 Search posts by title with filtering
+- 🗑️ Delete posts from the list view
 
-#### Requirements
+---
 
-##### Fetch and display posts
+## 📸 Wireframes
 
-- [ ] Implement a component that fetches the list of posts from https://jsonplaceholder.typicode.com/posts.
-- [ ] Display all fetched posts in a list.
+### Mobile View
 
-##### Search posts
+![Mobile View](assets/mobile_view.png?raw=true)
 
-- [ ] Implement a search bar that allows a user to search for posts by title and display only the desired posts. The search should be triggered on change.
+### Desktop View
 
-##### Delete post
+![Desktop View](assets/pc_view.png?raw=true)
 
-- [ ] For each post in the list, provide a "Remove" button.
-- [ ] Implement the functionality to delete a post when the "Remove" button is clicked.
+---
 
-##### Testing
+## 🚀 Getting Started
 
-- [ ] Write sufficient tests to satisfy a production-ready application.
+This project is powered by [Vite](https://vitejs.dev/) and includes the
+following tech stack:
 
-##### Documentation
-
-- [ ] Add appropriate documentation for your application.
-
-#### Wireframes
-
-##### Mobile
-
-![mobile_view](assets/mobile_view.png?raw=true)
-
-##### Desktop
-
-![pc_view](assets/pc_view.png?raw=true)
-
-## Getting Started
-
-The repository is pre-configured with the following:
-
-- TypeScript
-- React
-- Prettier
+- React + TypeScript
 - Vite
-- Vitest
-- ESLint
+- Vitest for testing
+- Playwright fo E2E testing
+- ESLint and Prettier for code quality
+- Tailwind CSS
 
-No styling / CSS libraries are included by default - feel free to add your own using CSS Modules, Tailwind CSS, CSS-in-JS, plain CSS etc. but avoid heavyweight UI frameworks such as Matieral-UI, Chakra UI, shadcn/ui etc.
+---
 
-You are free to introduce additional libraries or tools as you see fit.
+## 🔧 Prerequisites
 
-### Prerequisites
+- Node.js version **20+**
+- Yarn package manager
 
-- Node.js: Ensure you have Node.js version 20 or higher installed.
+---
 
-### Installation
+## 📦 Installation
 
-#### Clone the repository
+Clone the repository:
 
-```
+```bash
 git clone https://github.com/twinkltech/twinkl-react-tech-test.git
-```
-
-```
 cd twinkl-react-tech-test
 ```
 
-#### Install dependencies
+## 📦 Testing Strategy
 
-```
-yarn
-```
+The application uses Vitest and @testing-library/react to for unit and
+integration test coverage, and Playwright for E2E.
 
-### Scripts
+- ✅ API data fetching
+- ✅ Rendering posts
+- ✅ Searching functionality
+- ✅ Delete behavior
+- 🔄 Mocked API responses to isolate tests from network
 
-#### Development server
-
-Start the development server:
-
-```
-yarn dev
-```
-
-#### Lint (ESLint)
-
-Check for linting issues:
-
-```
-yarn lint
-```
-
-Fix lint issues in the codebase:
-
-```
-yarn lint:fix
-```
-
-#### Format (Prettier)
-
-Check for formatting issues:
-
-```
-yarn format
-```
-
-Fix formatting issues:
-
-```
-yarn format:write
-```
-
-#### Testing (Vitest)
-
-Run the test suite with:
+To run vitest tests
 
 ```
 yarn test
 ```
+
+playwright
+
+```
+yarn test:e2e
+```
+
+## Notes
+
+The app interacts with JSONPlaceholder — a free mock API. Deletion is simulated
+and does not persist on the server.
+
+## Next steps
+
+To expand this app in a real-world scenario, the following should be considered:
+
+- Add create/update functionality
+- Add loading state/spinner for delete post functionality
+- User authentication
+- Use React Query or SWR for data fetching
+- Implement pagination or infinite scroll
+- Harden tests by adding MSW or similar to simulate api responses
+- Harden type definitions by adding stricter eslint config
