@@ -45,11 +45,14 @@ export const Post = ({ post, error, handleDelete }: PostProps) => {
         </p>
       )}
       <button
-        className={clsx("self-end", { "mt-2": error, "mt-8": !error })}
+        className={clsx("self-end cursor-pointer ", {
+          "mt-2": error,
+          "mt-8": !error,
+        })}
         onClick={() => handleDelete(id)}
         aria-label="delete post"
       >
-        <DeleteIcon className="w-4 h-4 fill-gray-500" />
+        <DeleteIcon className="w-4 h-4 fill-gray-500 hover:fill-red-500" />
       </button>
     </div>
   );

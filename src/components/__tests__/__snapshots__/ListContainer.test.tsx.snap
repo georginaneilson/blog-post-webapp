@@ -1,0 +1,150 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ListContainer > matches the snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="h-[65px] bg-[#ffe1e6] md:bg-white p-4 sticky top-0 z-10 "
+        >
+          <h1
+            class="sr-only"
+          >
+            Twinkl Blog Posts
+          </h1>
+          <span
+            class="flex items-center gap-2 bg-white md:bg-[#fff7f9] rounded-xl p-2 md:mx-50 xl:mx-100 focus-within:outline-2 focus-within:outline-pink-700 shadow-sm"
+          >
+            <label
+              class="sr-only"
+              for="search"
+            >
+              Search blog posts
+            </label>
+            <input
+              class="w-full h-full bg-white md:bg-[#fff7f9] placeholder:font-medium placeholder:!text-gray-400 font-medium outline-none "
+              data-testid="search-test"
+              id="search"
+              placeholder="Search blog posts..."
+              title="Search blog posts"
+              type="text"
+              value=""
+            />
+            <svg
+              class="w-4 h-4 fill-gray-400"
+              role="img"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="mx-4 md:mx-50 md:px-2 xl:mx-100 md:h-screen overflow-y-auto mt-4"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="h-[65px] bg-[#ffe1e6] md:bg-white p-4 sticky top-0 z-10 "
+      >
+        <h1
+          class="sr-only"
+        >
+          Twinkl Blog Posts
+        </h1>
+        <span
+          class="flex items-center gap-2 bg-white md:bg-[#fff7f9] rounded-xl p-2 md:mx-50 xl:mx-100 focus-within:outline-2 focus-within:outline-pink-700 shadow-sm"
+        >
+          <label
+            class="sr-only"
+            for="search"
+          >
+            Search blog posts
+          </label>
+          <input
+            class="w-full h-full bg-white md:bg-[#fff7f9] placeholder:font-medium placeholder:!text-gray-400 font-medium outline-none "
+            data-testid="search-test"
+            id="search"
+            placeholder="Search blog posts..."
+            title="Search blog posts"
+            type="text"
+            value=""
+          />
+          <svg
+            class="w-4 h-4 fill-gray-400"
+            role="img"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="mx-4 md:mx-50 md:px-2 xl:mx-100 md:h-screen overflow-y-auto mt-4"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
